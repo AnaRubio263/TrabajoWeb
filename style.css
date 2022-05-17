@@ -1,0 +1,67 @@
+/* GENERAL */
+
+body{
+    background-color: azure;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+#titulo{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center ;
+    text-align: center;
+    position: absolute;
+    top: -900px;
+    margin: 1000px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+/* JUEGO GATO */
+
+.Caja1{
+
+    width: 200%;
+    height: 280px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 400px ;
+
+}
+
+.puntuacion{
+    color: aliceblue;
+    position: absolute;
+    top: 10px;
+    margin: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.gato{
+    
+    position: absolute;
+    top: 315px;
+}
+
+.gato-corriendo{
+    animation: gatoAnimar 0.25s steps(2) infinite;
+}
+
+.gato-chocar{
+    
+}
+
+
+@keyframes gatoAnimar {
+    from{
+        background-position-x: -84px;
+    }
+    to{
+        background-position: -252px;
+    }
+}
