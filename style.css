@@ -1,0 +1,7 @@
+.campo{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 242, 227);
+    vertical-align: text-bottom;
+    align-items: center;
+}
